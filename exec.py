@@ -15,7 +15,7 @@ from plantcv import plantcv as pcv
 class options:
     def __init__(self):        
         self.image = "./quinoa_seeds.jpg" # "./1_12-04-19.jpeg"  "./quinoa_seeds.jpg"  "./1_12-01-19.png"
-        self.debug = "print" # ou "plot" para apenas exibir as saídas, sem salvar em arquivos
+        self.debug = "print" # "print" para salvar em arquivos permanentes e "plot" para apenas exibir as saídas, sem salvar em arquivos
         self.writeimg = False
         self.result = "seed_analysis_results"
         self.outdir = "."
